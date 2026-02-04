@@ -14,7 +14,7 @@ function convertToBool(text, fault = "true") {
 
 module.exports = {
   SESSION_ID: process.env.SESSION_ID || "KEkljS6b#Bksgu4HFB7CdwK_sYE_mDrXplefWV-qQOc6VOMHIjtI",   /// <-- your session id hear (Session id recommended) // qr in terminal available 
-  MONGODB: process.env.MONGODB || "mongodb://mongo:XenHeRDUjMLxafGOvMuPVNoSEwqdNCPo@tramway.proxy.rlwy.net:39180", // change this if you have monogodb url
+  MONGODB: process.env.MONGODB || "mongodb://mongo:mwNXNdbVtDktxjiiKMLQwjFcetvdcgAB@shortline.proxy.rlwy.net:51637", // change this if you have monogodb url
   OWNER_NUM: (process.env.OWNER_NUM || "94701981053").split(","), // <-- your number 
 
 AUTO_READ_MESSAGES: true,   // ✅ reads ALL messages (DM + Groups)
