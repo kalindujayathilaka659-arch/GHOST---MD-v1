@@ -16,12 +16,14 @@ module.exports = {
   SESSION_ID: process.env.SESSION_ID || "KEkljS6b#Bksgu4HFB7CdwK_sYE_mDrXplefWV-qQOc6VOMHIjtI",   /// <-- your session id hear (Session id recommended) // qr in terminal available 
   MONGODB: process.env.MONGODB || "mongodb://mongo:mwNXNdbVtDktxjiiKMLQwjFcetvdcgAB@shortline.proxy.rlwy.net:51637", // change this if you have monogodb url
   OWNER_NUM: (process.env.OWNER_NUM || "94701981053").split(","), // <-- your number 
+  OLLAMA_HOST: process.env.OLLAMA_HOST || "http://127.0.0.1:11434",
+  OLLAMA_MODEL: process.env.OLLAMA_MODEL || "gemma3:1b",
 
 AUTO_READ_MESSAGES: true,   // ✅ reads ALL messages (DM + Groups)
 AUTH_SYSTEM: false,
 AUTO_READ_STATUS: true,   // true = read status
 AUTO_LIKE_STATUS: true,   // true = like (heart/react) status
-AUTO_REPLY_STATUS: false,   
+AUTO_REPLY_STATUS: true,   
 STATUS_REACT_EMOJI: "👻",  // emoji for status reaction
 STATUS_REPLY_TEXT: "🔥 Nice status!",
 MODE: "groups", // Options: "public" | "private" | "inbox" | "groups"
