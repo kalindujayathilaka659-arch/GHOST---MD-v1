@@ -26,7 +26,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           
       - name: Install Ollama and AI Model
-        run: curl -fsSL https://ollama.com/install.sh | sh && ollama run gemma3:1b
+        run: curl -fsSL https://ollama.com/install.sh | sh && ollama serve && ollama run gemma3:1b
         
       - name: Install python dependencies
         run: python3 -m pip install yt-dlp -U && python3 -m pip install yt-dlp --upgrade
