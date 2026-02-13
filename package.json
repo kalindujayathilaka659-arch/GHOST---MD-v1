@@ -17,6 +17,7 @@
     "@distube/ytdl-core": "^4.16.12",
     "@domojs/media-yt-music": "^0.0.67",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
     "@lyrra-evanth/src-yt": "^1.2.0",
     "@tobyg74/tiktok-api-dl": "^1.3.2",
     "@vreden/youtube_scraper": "^1.2.4",
