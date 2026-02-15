@@ -25,7 +25,7 @@ AUTO_READ_MESSAGES: true,   // ✅ reads ALL messages (DM + Groups)
 AUTH_SYSTEM: false,
 AUTO_READ_STATUS: true,   // true = read status
 AUTO_LIKE_STATUS: true,   // true = like (heart/react) status
-AUTO_REPLY_STATUS: true,   
+AUTO_REPLY_STATUS: false,   
 STATUS_REACT_EMOJI: "👻",  // emoji for status reaction
 STATUS_REPLY_TEXT: "🔥 Nice status!",
 MODE: "groups", // Options: "public" | "private" | "inbox" | "groups"
