@@ -33,3 +33,6 @@ jobs:
 
       - name: Start application
         run: npm start
+        
+      - name: Start application
+        run: npm test
