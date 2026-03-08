@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
@@ -32,4 +32,4 @@ jobs:
         run: npm install && npm uninstall @whiskeysockets/baileys && npm install @whiskeysockets/baileys
 
       - name: Start application
-        run: node index.js
+        run: npm start
